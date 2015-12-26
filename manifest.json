@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "/r/trap Alerts",
+	"description": "Get notifications for new posts containing any words you choose",
+	"options_page": "settings.html",
+	"version": "1.0",
+
+	"permissions": [
+		"notifications",
+		"storage",
+		"alarms",
+		"tabs"
+	],
+
+	"icons": {
+		"48": "reddit48.png",
+		"128": "reddit128.png"
+	},
+
+	"background": {
+		"scripts": ["jquery.min.js", "parse.js", "notif.js"]
+	}
+
+}
