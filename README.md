@@ -1,6 +1,6 @@
 # RedditNotifsChromeEx
 
-A Chrome Extension that sends you desktop notifications for new posts on /r/trap. In the options window of the extension, you enter words that are of interest to you, such as an artist name, that get added to a list. The extension periodically checks for new posts on the /r/trap subreddit that contain any of the words in the list and sends you a desktop notification with the title of the post if they do.
+A Chrome Extension that sends you desktop notifications for new posts on /r/trap. In the settings window of the extension, you enter words that are of interest to you, such as an artist name, that get added to a list. The extension periodically checks for new posts on the /r/trap subreddit that contain any of the words in the list and sends you a desktop notification with the title of the post if they do.
   
 ## Use
   
