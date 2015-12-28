@@ -42,5 +42,6 @@ button {
 	font-family:Arial;
 	font-size:13px;
 	padding:6px 24px;
+    opacity: 0.85;
+    outline: none;
 }
-

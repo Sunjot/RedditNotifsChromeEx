@@ -4,6 +4,22 @@ $(document).ready(function () {
 
 	var id = 1;
 
+	$('#add').mouseenter(function() {
+		$('#add').fadeTo('fast', 1);
+	});
+
+	$('#add').mouseleave(function() {
+		$('#add').fadeTo('fast', 0.85)
+	});
+
+	$('#remove').mouseenter(function() {
+		$('#remove').fadeTo('fast', 1);
+	});
+
+	$('#remove').mouseleave(function() {
+		$('#remove').fadeTo('fast', 0.85)
+	});
+
 	// when the add button is clicked
 	$("#add").click(function(){
 
